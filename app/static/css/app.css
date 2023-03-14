@@ -1,3 +1,164 @@
 body {
     padding-top: 5rem;
 }
+
+.bg-primary {
+    background-color: #15b8a7!important;
+    
+}
+.btn-primary {
+    background-color: #15b8a7!important;
+    border-color: #15b8a7!important;
+}
+
+.bedicon{
+    width:10px
+}
+
+ .bathicon{
+    width:10px
+ }
+
+.locationicon{
+    width:10px
+}
+
+.rbutton{
+    border: none;
+    background-color: #32cd32;
+    color: white;
+    margin-bottom: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+.property{
+    margin-right: 420px;
+    display: flex;
+    flex-direction: row;
+}
+
+.propertypic{
+    width: 50%;
+    height: auto;
+    border-radius: 3px;
+    float: left;
+}
+
+.p1, .p2, .p3{
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.p1{
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+
+.p1 .price{
+    width: 110px;
+    height: 28px;
+    background-color:blue ;
+    color: white;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 15px;
+}
+
+.p1 .type{
+    width: 110px;
+    height: 28px;
+    background-color:rgb(255,165,0) ;
+    color: white;
+    border-radius: 15px;
+    display: inline-block;
+    text-align: center;
+}
+
+.p2 .label{
+    margin-right: 10px;
+}
+
+.p2 .beds, .baths{
+    padding-right: 4px;
+    padding-left: 20px;
+}
+
+
+.p3{
+    display: flex;
+    flex-direction: row;
+}
+
+.ctitle{
+    font-weight: bold;
+    margin-bottom: -3px;
+    margin-left: 12px;
+    font-size: 17px;
+    padding-bottom: 2px;
+    margin-top: 10px;
+}
+
+.car1{
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
+
+.car2{
+    border-radius:2px;
+    margin-right: 20px;
+    background-color: rgb(212, 205, 205);
+}
+
+.cpic{
+    width: 100%;
+    height: auto;
+    border-radius: 2px;
+}
+
+.ctitle{
+    font-weight: bold;
+    margin-bottom: -4px;
+    margin-left: 12px;
+    font-size: 17px;
+    padding-bottom: 2px;
+    margin-top: 10px;
+}
+
+.A{
+    display: flex;
+    flex-direction: row;
+}
+
+.l_icon {
+    width: 20px;
+    height: 21px;
+    margin-right: -12px;
+    margin-left: 8px;
+}
+
+.loc{
+    margin-left: 14px;
+    text-align: justify;
+}
+
+.pprice{
+    height: 30px;
+    width: 100px;
+    color: white;
+    background-color: rgb(65,105,225);
+    border-radius: 12px;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 30px;
+    margin-top: -6px;
+    margin-left: 12px;
+    padding-left: 8px;
+}
+
+.locid{
+    margin-left: 12px;
+    text-align: justify;
+}

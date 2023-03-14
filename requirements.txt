@@ -8,3 +8,8 @@ MarkupSafe==2.1.2
 python-dotenv==0.21.1
 Werkzeug==2.2.2
 zipp==3.13.0
+Flask_wtf
+Flask-Migrate
+Flask-Login
+Flask-SQLAlchemy
+psycopg2

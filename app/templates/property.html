@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+
+{% block main %}
+    <div class="property">
+        <img class="propertypic" src="{{url_for("get_images", filename=id.photo)}}"/>
+        <div class="propertyinfo">
+            <h5 class ="proptitle">{{id.title}} </h5>
+            <div class="p1">
+                <span class="price"> {{"${:,}".format(id.price) }} </span>
+                <span class ="type"> {{id.property_type}} </span>
+            </div>
+            <p>{{id.Desc}} </p>
+            <div class="p2">
+                <img class="bedicon" src="{{url_for('static', filename='/bed.png')}}">
+                <p class="beds"> {{id.num_bedrooms}} </p><p class="label"> Bedrooms </p>
+                <img class="bathicon" src="{{url_for('static', filename='/bath.png')}}">
+                <p class ="baths"> {{id.num_baths}} </p><p class="label"> Bathrooms </p>
+            </div>
+            <div class="p3">
+                <img class="locationicon" src="{{url_for('static', filename='/location-icon.png')}}">
+                <p class ="locid"> {{id.location}} </p>
+            </div>
+            <button class="rbutton"> Email Realtor </button>
+        </div>
+    </div>    
+
+{% endblock %}
